@@ -31,4 +31,4 @@ driver.find_element(By.XPATH, '//img[@src="https://global.cdn.magazord.com.br/mo
 driver.find_element(By.XPATH, '//input[@class="input-cep"]').send_keys('38408698')
 # driver.find_element(By.XPATH, '//button[@onclick="Zord.Cart.atualizaValorTotalPedidoCarrinho();"]').send_keys('38408698')
 
-time.sleep(2)
+time.sleep(5)
