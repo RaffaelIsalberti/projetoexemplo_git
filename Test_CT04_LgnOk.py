@@ -10,8 +10,8 @@ class Testct04Lgn:
         driver = conftest.driver
         login_pages = LoginPage()
         # fazer login
-        login_pages.fazer_login1("isalberti@hotmail.com", "R@affialh1")
-        # driver.find_element(By.XPATH, "//input[@name='username']").send_keys('isalberti@hotmail.com')
-        # driver.find_element(By.XPATH, "//input[@name='password']").send_keys('R@affialh1')
+        login_pages.fazer_login1("saasassa@asaaa.com", "asas@sas")
+        # driver.find_element(By.XPATH, "//input[@name='username']").send_keys('saasassa@asaaa.com')
+        # driver.find_element(By.XPATH, "//input[@name='password']").send_keys('asas@sas')
         # driver.find_element(By.XPATH, "//button[@type='submit']").click()
         assert driver.find_element(By.XPATH, "//input[@name='verificationCode']")
