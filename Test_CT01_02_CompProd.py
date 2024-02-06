@@ -27,9 +27,9 @@ class Testct01comp:
 
         #finalizar compra
         driver.find_element(By.XPATH, "//a[@class='btn_action checkout_button']").click()
-        driver.find_element(By.ID, "first-name").send_keys('Raffael')
-        driver.find_element(By.ID, "last-name").send_keys('Isalberti')
-        driver.find_element(By.ID, "postal-code").send_keys('38408698')
+        driver.find_element(By.ID, "first-name").send_keys('QEQWEQW')
+        driver.find_element(By.ID, "last-name").send_keys('SADASDSAD')
+        driver.find_element(By.ID, "postal-code").send_keys('12165165')
         driver.find_element(By.XPATH, "//input[@class='btn_primary cart_button']").click()
         driver.find_element(By.XPATH, "//a[@class='btn_action cart_button']").click()
 
@@ -56,9 +56,9 @@ class Testct02comp:
 
         #finalizar compra
         driver.find_element(By.XPATH, "//a[@class='btn_action checkout_button']").click()
-        driver.find_element(By.ID, "first-name").send_keys('Ana Flavia')
-        driver.find_element(By.ID, "last-name").send_keys('Isalberti')
-        driver.find_element(By.ID, "postal-code").send_keys('38408698')
+        driver.find_element(By.ID, "first-name").send_keys('QEEQ QEQEQE')
+        driver.find_element(By.ID, "last-name").send_keys('CVWVEWF')
+        driver.find_element(By.ID, "postal-code").send_keys('8419151')
         driver.find_element(By.XPATH, "//input[@class='btn_primary cart_button']").click()
         driver.find_element(By.XPATH, "//a[@class='btn_action cart_button']").click()
 
